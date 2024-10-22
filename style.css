@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Talas_Province_in_Kyrgyzstan.svg/2560px-Talas_Province_in_Kyrgyzstan.svg.png');
+  background-repeat: no-repeat;
+    background-size: 1550px; 
+    /* min-height: 100vh; 
+    font-family: sans-serif; */ */
+}
+.container {
+    margin: 0 auto; 
+    width: 100%;
+    max-width: 1020px;
+    padding: 0px 20px;
+}
+.title {
+    text-align: center;
+    color: orange;
+}
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 150px;
+}
+.tabs img {
+    width: 100px;
+    height: auto;
+}
+
+.content {
+   display: none;
+    margin-top: 100%;
+    text-align: center;
+}
+.content img {
+    width: 100%;
+    height: auto;
+}
+.content p {
+    font-size: 20px;
+    color: black;
+}
+
+
+/* Show image and text when corresponding radio button is checked */
+#oblus1:checked ~ .oblus1-content {
+    display: block;
+}
+#oblus2:checked ~ .oblus2-content {
+    display: block;
+}
+#oblus3:checked ~ .oblus3-content {
+    display: block;
+}
+#oblus4:checked ~ .oblus4-content {
+    display: block;
+}
+#oblus5:checked ~ .oblus5-content {
+    display: block;
+}
+#oblus6:checked ~ .oblus6-content {
+    display: block;
+}
+#oblus7:checked ~ .oblus7-content {
+    display: block;
+}
+
+
+
+
+
+#oblus1:checked ~.oblus1-img {
+    display: block;
+    margin-top: 1500px;
+}
+
+
+#oblus2:checked ~.oblus2-img{
+    display: block;
+    margin-top: 1500px;
+}
+#oblus3:checked ~.oblus3-img{
+    display: block;
+    margin-top: 1500px;
+
+}
+
+#oblus4:checked ~.oblus4-img{
+    display: block;
+    margin-top: 1500px;
+}
+#oblus5:checked ~.oblus5-img{
+    display: block;
+    margin-top: 1500px;
+}
+#oblus6:checked ~.oblus6-img{
+    display: block;
+    margin-top: 1500px;
+}
+#oblus7:checked ~.oblus7-img{
+    display: block;
+margin-top: 1500px;
+
+}
+.img-text h2{
+    position: absolute;
+    top: 1300px;
+    left: 100px;
+}
+.img-text img {
+    position: absolute;
+    top: 1300px;
+    left: 100px;
+}
+
+
+.oblus1{
+    position: relative;
+    top: 100px;
+    left: 450px; 
+}
+
+.oblus2{
+    position: relative;
+    top: 200px;
+    left: 800px; 
+}
+
+.oblus3{
+    position: relative;
+    top: 600px;
+    right: 300px;
+}
+ .oblus4{
+    position: relative;
+    top: 320px;
+    left: 140px;
+}
+
+.oblus5{
+    position: relative;
+    top: 300px;
+    right: 400px;
+}
+
+.oblus6{
+    position: relative;
+    top: 550px;
+    right: 500px;
+}
+
+.oblus7{
+    position: relative;
+    top:150px;
+    right: 750px;
+}
+
+
+
+
